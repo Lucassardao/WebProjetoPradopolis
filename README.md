@@ -9,6 +9,8 @@ bláblá
 
 ## 1- Criar ambiente virtual
  - abrir a pasta do projeto no terminal
+ - criar ambiente virtual (powershell - terminal VsCode)
+     - python -m venv venv
  - Ativar o venv
     - .\venv\Scripts\activate
     obs: funciona pelo windonws usando o vscode
