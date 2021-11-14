@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color:#E3E3E3;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+ }
+
+
+ footer{
+     background-color: #303030;
+     border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    color: gray;
+ }
+
+#barra_superior{
+    background-color: #808080;
+    height: 50px;
+    width: 100%;
+}
+#logo{
+    height: 50px;
+    width: auto;
+}
+
+#vestibular{
+    color: #303030;
+    text-decoration: none;
+    margin-left: 4px;
+}

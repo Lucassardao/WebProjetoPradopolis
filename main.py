@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 
 #criar a instancia do flask
-app = Flask(__name__)
+app = Flask(__name__,template_folder='static/templates')
 
 #criar a rota
 @app.route('/')
