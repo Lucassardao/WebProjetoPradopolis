@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
 }
-html {
+
+body {
     background-color:#E3E3E3;
+    height: 100%; 
+    width: 100%;
+    position: relative;
 }
 
 nav {
@@ -35,6 +39,39 @@ nav {
 
 #vestibular{
     color: #303030;
+    font-size: 40px;
+    
     text-decoration: none;
     margin-left: 4px;
+}
+
+#carouselExampleSlidesOnly{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+    position: relative;
+}
+
+.row{
+    height: 100%; 
+    position: relative;
+    
+}
+
+.col{
+    height: 100%; 
+    position: relative;
+}
+#blue{
+    background-color: #01D4CD;
+}
+
+#red{
+    background-color: #882C31;
 }
