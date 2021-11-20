@@ -12,7 +12,7 @@ bláblá
  - criar ambiente virtual (powershell - terminal VsCode)
      - python -m venv venv
  - Ativar o venv
-    - .\venv\Scripts\activate
+    - venv\Scripts\activate
     obs: funciona pelo windonws usando o vscode
     obs2: caso não execute o script de ativação fazer:
         - abrir o powershell do windonws como administrador e digitar o codigo abaixo
@@ -31,3 +31,4 @@ bláblá
  - $env:FLASK_APP = "main.py"
  - flask run
     - Abrir navegador no endereço "Running on http://xxx.x.x.x:5000/" que aparecer
+ - Ctrl + C para finalizar a aplicação
