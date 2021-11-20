@@ -10,7 +10,7 @@ body {
     position: relative;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
  }
@@ -22,7 +22,7 @@ nav{
     bottom: 0;
     left: 0;
     height: 40px;
-    position:static;
+    position: fixed;
     width: 100%;
     color: gray;
  }
@@ -37,40 +37,9 @@ nav{
     width: auto;
 }
 
-#vestibular{
+#inicio{
     color: #303030;
     font-size: 40px;
     text-decoration: none;
     margin-left: 4px;
-}
-
-#carouselExampleSlidesOnly{
-    margin: 0;
-    padding: 0;
-}
-
-.container{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%; 
-    position: relative;
-}
-
-.row{
-    height: 100%; 
-    position: relative;
-    
-}
-
-.col{
-    height: 100%; 
-    position: relative;
-}
-#blue{
-    background-color: #01D4CD;
-}
-
-#red{
-    background-color: #882C31;
 }
