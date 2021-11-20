@@ -21,7 +21,7 @@ nav{
     border-top: 1px solid #333;
     bottom: 0;
     left: 0;
-    height: 40px;
+    height: auto;
     position:static;
     width: 100%;
     color: gray;
@@ -74,3 +74,5 @@ nav{
 #red{
     background-color: #882C31;
 }
+
+
